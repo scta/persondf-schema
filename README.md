@@ -46,7 +46,7 @@ The source of truth in pulling data from the world outside is the local file.
     "@id": "https://scta.info/resource/Aquinas",
     "@type": "https://scta.info/resource/person",
     "sctap:personType": "https://scta.info/resource/Scholastic",
-    "owl:sameAs": "https://www.wikidata.org/wiki/Q9438", // Wikidata
+    "owl:sameAs": "https://www.wikidata.org/wiki/Q9438",
     "dc:title": [
         {
             "@value": "Thomas Aquinas",
@@ -76,19 +76,16 @@ The source of truth in pulling data from the world outside is the local file.
     ],
     "hasEvent": [
         {
-            "@id": "https://scta.info/resource/event-id", // e.g. Aquinas-event-1
-            "@type": "https://scta.info/resource/eventype-id"
+            "@id": "https://scta.info/resource/event-id",
+            "@type": "https://scta.info/resource/eventype-id",
             "dc:title": "Birth",
             "dc:description": "Description",
             "location": "wikidata-id",
-            "start": "124u",    // EDTF
-            "end": "1251",      // EDTF
-        },
-        {
-            // Event object
+            "start": "124u",
+            "end": "1251",
         }
     ],
-    "description": "Short description" // 250 words
+    "description": "Short description"
 }
 ```
 
